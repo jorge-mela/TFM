@@ -1,5 +1,5 @@
 
-# EXPERIMENTO 2
+# EXPERIMENTO DV2-C80-T1
 
 - Enventanado:
     - Cuadrícula
