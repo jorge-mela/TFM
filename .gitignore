@@ -1,27 +1,20 @@
-# Eliminamos todo y vamos añadiendo cosas
-# acabamos antes
+# Eliminamos todos los archivos que almacenan datos
+*.hdf5
+*.png
+*.avi
+*.csv
+*.keras
+*.sav
 
-/*
+# Eliminamos el directorio /00_comun/ ya que no tiene nada de interés
+/00_comun/
 
-# Añadimos lo que nos interesa
+# Eliminamos los archivos concretos (por nombre) que no son interesantes
+/Experimento_01/03_Entrenamiento.py
+/Experimento_02/03_Entrenamiento.py
+/Experimento_04/03_Entrenamiento.py
+/Experimento_05/03_Entrenamiento.py
+/figuras_memoria.ipynb
 
-!/Experimento_*
-!/libs
-!Ejecucion_Experimentos.py
-!Analisis_Error.py
-!.gitignore
-
-
-# Finalente, de lo que sí que está metido, eliminamos
-# lo que no es necesario
-
+# Eliminamos los archivos de cache de python
 /libs/__pycache__/
-
-/Experimento_*/03_Entrenamiento.py
-
-/Experimento_*/data/**
-/Experimento_*/figures/**
-/Experimento_*/logs/**
-/Experimento_*/models/**
-/Experimento_*/proyecciones/**
-
