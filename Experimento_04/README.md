@@ -1,5 +1,5 @@
 
-# EXPERIMENTO 4
+# EXPERIMENTO FFT2-S38-T1
 
 - Enventanado:
     - Segmentación
