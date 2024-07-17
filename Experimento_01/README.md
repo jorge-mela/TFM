@@ -1,5 +1,5 @@
 
-# EXPERIMENTO 1
+# EXPERIMENTO DV1-C75-T16
 
 - Enventanado:
     - Cuadrícula
